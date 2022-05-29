@@ -1,0 +1,71 @@
+body {
+    background: url('27917877.jpg') no-repeat center center/cover;
+    color: black;
+    text-align: center;
+    font-family: Lucida Console
+}
+
+.navbar {
+    background-color: red;
+    border-radius: 12px;
+    padding: 2px 2px;
+
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 23 px 7 px;
+    margin: 9 px 10 px;
+}
+
+.navbar li a {
+    padding: 2px 72px;
+    margin: 2px 9px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.navbar li a:hover {
+    color: grey;
+}
+
+.logo {
+    text-align: center;
+    background-color: #e9f83d;
+    margin: 8px 400px;
+    color:#ffffff;
+    font-size: 20px;
+    font-family: "Gotham",Helvetica,Arial,sans-serif;
+    -webkit-text-stroke: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+}
+
+#form {
+    background-color: #e9f83d;
+    margin: 200px 576px;
+    padding: 2px 2px;
+    block-size: 400px;
+    font-family: "Gotham",Helvetica,Arial,sans-serif;
+    
+}
+
+.login #btn {
+    cursor: pointer;
+}
+
+.login #btn:hover {
+    background-color: grey;
+}
+
+.login div {
+    padding: 18px 2px;
+    margin: 4px 2px;
+}
+.log_img {
+    padding:100px -100px 100px -100px;
+}
+.login {
+    font-family: "Gotham",Helvetica,Arial,sans-serif;
+}
